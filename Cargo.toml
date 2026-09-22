@@ -4,3 +4,7 @@ members = [
 ]
 
 resolver = "3"
+
+[workspace.lints.clippy]
+pedantic = "warn"
+cargo = "warn"
